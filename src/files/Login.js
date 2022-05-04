@@ -5,7 +5,7 @@ export default function Login() {
                 <h1>Login Screen</h1>
             <div className='login-container'>
             <span className="logo">
-                <img src="/logo.jpg"/>
+                <img src="../logo.jpg"/>
             </span>
             <div className='form-container'>
                 <div className='form'>

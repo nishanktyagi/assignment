@@ -17,7 +17,7 @@ export default function Cart() {
       </div>
       <div className="content">
         <div className="image">
-          <img src="/watch.jpg" />
+          <img src="../watch.jpg" />
           <div className="number">
             <span className="one">
               -
