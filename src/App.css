@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Montserrat';
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-container{
+min-height: 100vh;
+background-repeat: no-repeat;
+  background-image: url("C:\Users\HP\Desktop\psiborg assignment\assignment\public\BG.jpg");
+  background-position: center;
+  width: 320px;
+  height: 100vh;
+  position: relative;
+  display: block;
+  margin: auto;
+  padding:20px;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  border-bottom: 1px solid #3C3C3C !important;
+  border: none;
+  background: transparent;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form{
+  background-color: rgba(255, 255, 255, 0.7);;
+  border-radius: 45px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 30px 52px
+}
+.password-link{
+display: flex;
+}
+.submit-button{
+  color: #fff;
+  background: #DB4700;
+  box-shadow: -3px -6px 4px rgb(239 239 239 / 40%), 3px 6px 4px rgb(196 196 196 / 40%);
+  border-radius: 15px;
+  padding: 11px 65px;
+  border: none;
+  font-family: 'NATS';
+font-style: normal;
+font-weight: 400;
+margin-top: 30px;
+cursor: pointer;
+}
+.account{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+color: #3C3C3C;
+padding-top: 5px;
+}
+.remember,.forgt {
+  font-size: 8px;
+  line-height: 9.75px;
+  color: #3C3C3C;
+  padding: 5px 20px;
+}
+.logo img{
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 0;
+}
+.form-container{
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.email::before{
+  content: '';
+  background-image: url("C:\Users\HP\Desktop\psiborg assignment\assignment\public\email.jpg");
+  height: 16px;
+  width: 12px;
 }
+.cart-container{
+  width: 400px;
+  height: 100vh;
+  position: relative;
+  display: block;
+  margin: auto;
+  padding:20px;
+}
+.second-col{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.first-col{
+  flex-basis: 50%;
+}
+.first-row{
+  align-items: center;
+    display: flex;
+    width: 100%;
+}
+.search{
+  border: none !important;
+  width: 93%;
+  background: rgba(196, 196, 196, 0.19);
+  padding: 8px;
+  border-radius: 5px;
+}
+.text span{
+  display: block;
+}
+.content {
+  display: flex;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.4);
+  padding: 10px;
+  ;
+}
+.image {
+  flex-basis: 40%;
+  text-align: center;
+}
+.text {
+  flex-basis: 60%;
+  display: block;
+}
+.delete-button{
+  color:rgba(219, 71, 0, 1);
+  border: 1px solid rgba(219, 71, 0, 1) !important;
+  padding: 5px 20px;
+  background: #fff;
+  border-radius: 15px;
+ margin-right: 8px ;
+}
+.see-more-button{
+  background-color:  rgba(219, 71, 0, 1) !important;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 14px;
+color: #fff;
+}
+.proceed-container {
+  text-align: center;
+}
+.proceed-container span{
+display: block;
+font-weight: 600;
+margin-top: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+button.proceed-button {
+  border: none;
+  background: #DB4700;
+  box-shadow: -3px -6px 4px rgb(220 220 220 / 40%), 3px 6px 4px rgb(196 196 196 / 40%);
+  border-radius: 15px;
+  padding: 10px 60px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+}
+.stock{
+  color: rgba(0, 156, 44, 0.81);
+}
+.one, .three{
+  border: 1px solid black;
+    border-radius: 50%;
+    padding: 0px 5px;
+}
+.number{
+  background: rgba(196, 196, 196, 0.19);
+  border-radius: 2px;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.two{
+
+  margin: 0px 15px;
 }
