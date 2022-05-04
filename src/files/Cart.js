@@ -6,10 +6,10 @@ export default function Cart() {
       <h1>Cart Screen</h1>
       <div className="first-row">
         <span className="first-col">
-          <img src="/vector.jpg" />
+          <img src="../vector.jpg" />
         </span>
         <span className="second-col">
-          <img src="/Logo1.jpg" />
+          <img src="../Logo1.jpg" />
         </span>
       </div>
       <div className="second-row">
@@ -59,7 +59,7 @@ export default function Cart() {
       </div>
       <div className="content">
         <div className="image">
-          <img src="/yoga.jpg" />
+          <img src="../yoga.jpg" />
           <div className="number">
             <span className="one">
               -
@@ -100,7 +100,7 @@ export default function Cart() {
       </div>
       <div className="content">
         <div className="image">
-          <img src="/anchor.jpg" />
+          <img src="../anchor.jpg" />
           <div className="number">
             <span className="one">
               -
