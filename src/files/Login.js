@@ -2,6 +2,7 @@ import React from 'react';
 export default function Login() {
     return (
         <div>
+                <h1>Login Screen</h1>
             <div className='login-container'>
             <span className="logo">
                 <img src="/logo.jpg"/>

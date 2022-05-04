@@ -3,6 +3,7 @@ import React from 'react';
 export default function Cart() {
   return (
     <div className='cart-container'>
+      <h1>Cart Screen</h1>
       <div className="first-row">
         <span className="first-col">
           <img src="/vector.jpg" />
